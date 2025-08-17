@@ -56,7 +56,7 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 2. System validates input.
 
-3. System sends request to Amadeus API */v2/shopping/hotel-offers*.
+3. System sends request to Amadeus API `/v2/shopping/hotel-offers`.
 
 4. Amadeus returns available hotels.
 
@@ -100,7 +100,7 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 ### API Design
 
-**Endpoint**: GET /api/hotels/search
+**Endpoint**: `GET /api/hotels/search`
 
 **Description**: Search hotels using Amadeus API.
 
@@ -137,7 +137,7 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 ---
 
-**Endpoint**: POST /api/hotels/filter
+**Endpoint**: `POST /api/hotels/filter`
 
 **Description**: Filter hotels after search.
 
