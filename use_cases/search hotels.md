@@ -3,14 +3,14 @@
 ### Overview 
 The **Hotel Search & Filter** module allows guest users to search for hotels in a destination city, apply filters (price, rating, amenities, etc.), and view available results. The system integrates with the Amadeus API for real-time hotel availability and pricing.
 
----
+
 
 ### Actors
 
 - Guest User: Unauthenticated users browsing/searching hotels.
 - Amadeus API: External service providing hotel data (availability, pricing, details, etc.). 
 
----
+
 
 ### Constraints
 - Guest users can search and filter without logging in.
@@ -23,18 +23,16 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 - Data freshness depends on Amadeus responses.
 
----
-
 
 ### Sequence Diagram
 ![sequence diagram](https://drive.google.com/uc?export=view&id=1l91T5e6_FtTwCQUZDWj8nLi_ku5FkPIz)
 
----
+
 
 ### Flow Diagram
 ![flow diagram](https://drive.google.com/uc?export=view&id=1t5ZFGDA6d2c3tR5t4amradZc_2ytHxAO)
 
----
+
 
 ### Use Cases 
 
@@ -70,6 +68,8 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 - API failure → show fallback message.
 
+--- 
+
 #### UC2: Filter Hotels
 
 **Description**: Guest applies filters on search results.
@@ -82,13 +82,14 @@ The **Hotel Search & Filter** module allows guest users to search for hotels in 
 
 **Filters**:
 
-    - Price range
-    - Star rating
-    - Amenities (Wi-Fi, pool, parking, etc.)
-    - Distance from city center
-    - Hotel chains
+- Price range
+- Star rating
+- Amenities (Wi-Fi, pool, parking, etc.)
+- Distance from city center
+- Hotel chains
 
 **Main Flow**:
+
 1. Guest selects filter criteria.
 
 2. System applies filters to hotel list (either client-side or server-side).
