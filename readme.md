@@ -24,6 +24,10 @@ Our mission is to simplify flight discovery and booking through an intuitive, da
 
 - Maintain a high-performance, scalable system with global reach.
 
+### ⚙️ System Design
+
+![System Design Diagram](https://drive.google.com/uc?export=view&id=1Ghd53HETP1KtA0YhK_b2L82xXLlUxbbx)
+
 ### ✅ Functional Requirements
 
 1. Flight Search
